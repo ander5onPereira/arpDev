@@ -1,0 +1,14 @@
+{
+   "type": "sqlite",
+   "database": "./src/db/database.sqlite",
+   "autoSchemaSync":true,
+   "entities": [
+      "./src/entity/*.ts"
+   ],
+   "migrations": [
+      "./src/migration/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "./src/entity"
+   }
+}
