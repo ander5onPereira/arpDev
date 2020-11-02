@@ -1,0 +1,20 @@
+{
+   "type": "postgres",
+   "host": "localhost",
+   "port": 5433,
+   "username": "postgres",
+   "password": "banco",
+   "database": "typeorm",
+   "entities": [
+      "src/models/**/*.ts"
+   ],
+   "migrations": [
+      "src/migrations/**/*.ts"
+   ],
+   "cli": {
+      "migrationsDir": [
+         "src/migrations/"
+      ],
+      "entitiesDir": ["src/models"]
+   }
+}
